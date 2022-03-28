@@ -1,0 +1,20 @@
+{
+  "name": "cs4220midterm",
+  "version": "1.0.0",
+  "description": "CS4220 Midterm (Dungeons and Dragons Search API)",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Matthew Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "dnd-api": "file:../DND-API",
+    "inquirer": "^8.2.2",
+    "superagent": "^7.1.1",
+    "yargs": "^17.4.0"
+  }
+}
